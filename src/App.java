@@ -23,7 +23,7 @@ public class App extends Application {
         StackPane root = new StackPane();
         root.getChildren().add(btn);
 
-        Scene scene = new Scene(root, 300, 250);
+        Scene scene = new Scene(root, 600, 650);
 
         primaryStage.setTitle("Hello World!");
         primaryStage.setScene(scene);
